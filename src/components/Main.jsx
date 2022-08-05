@@ -5,11 +5,11 @@ function Main() {
         <div className="main">
             <h1 className="main-h1">Fun facts about React</h1>
             <ul className="main-ul">
-                <li>Was first released in 2013</li>
-                <li>Was originally created by Jordan Walke</li>
-                <li>Has well over 100K stars on GitHub</li>
-                <li>Is maintained by Facebook</li>
-                <li>Powers thousands of enterprise apps, including mobile apps</li>
+                <li>首發於2013年</li>
+                <li>最初由 Jordan Walke 創建</li>
+                <li>在 GitHub 上擁有超過 10 萬顆星</li>
+                <li>由 Facebook 維護</li>
+                <li>支持數以千計的企業應用程序，包括移動應用程序</li>
             </ul>
         </div>
     )
