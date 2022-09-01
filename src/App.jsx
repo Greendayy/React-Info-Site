@@ -1,18 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React from 'react';
 import './App.css'
 import Main from "./components/Main";
 import Navbar from "./components/Navbar"
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+const [darkMode,setDarkMode]=React.useState(true)
 
+function toggleDarkMode(){
+  setDarkMode(prevMode=>!prevMode)
+}
   return (
     <div className="App">
-      <Navbar />
-      <Main />
+      <Navbar 
+      darkMode={darkMode} toggleDarkMode={toggleDarkMode}
+      />
+      <Main 
+      darkMode={darkMode}
+      />
     </div>
   )
 }
- 
-export default App
+

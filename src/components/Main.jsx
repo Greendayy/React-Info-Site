@@ -1,8 +1,8 @@
 import React from "react"
 
-function Main() {
+export default function Main(props) {
     return (
-        <div className="main">
+        <main className={props.darkMode?"dark":""}>
             <h1 className="main-h1">Fun facts about React</h1>
             <ul className="main-ul">
                 <li>首發於2013年</li>
@@ -11,8 +11,7 @@ function Main() {
                 <li>由 Facebook 維護</li>
                 <li>支持數以千計的企業應用程序，包括移動應用程序</li>
             </ul>
-        </div>
+        </main>
     )
 }
 
-export default Main
