@@ -115,7 +115,8 @@ main {
 main.dark {
   background-image: url(/react-icon-large.png);
   background-color: #282D35;
-  color: rgb(231, 224, 224)
+  color: rgb(231, 224, 224);
+  height: 38rem;
 }
 
 
